@@ -1,0 +1,132 @@
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+#title h1{
+    size: 3rem;
+    line-height: 1.5;
+}
+h1,h,h3,h4,h5,h6{
+    font-family: 'Montserrat';
+}
+.container-fluid{
+    padding: 3% 15% 15%;
+}
+/*Navigation Bar*/
+.navbar{
+    padding:0 0 3rem;
+}
+
+
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-size: 2.5rem;
+    font-style: bold;
+    padding-right: 30px;
+}
+.nav-item{
+    padding: 0 18px;
+    font-size: 1.2rem;
+    font-family: 'ubuntu';
+}
+.row h1{
+    padding-left: 30px;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+/*title-img*/
+.title-img{
+    width: 25%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+@media (max-width: 1028px){
+    .title-img{
+        width: 60%;
+        transform: rotate(0deg);
+        position: static;
+    }
+    #title{
+        text-align: center;
+    }
+}
+/*feature*/
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+   position: relative;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+} 
+h2{
+    font-size: 2rem;
+    line-height: 1.5;
+}
+h3{
+    font-size: 25px;
+}
+p{
+    color: #8f8f8f;
+}
+.icon{
+    color: #ef8172;
+    padding: bottom 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/*testimonials*/
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    text-align: center;
+}
+.pricing-header{
+    padding: 20px;
+}
+/*donload*/
+#cta{
+    background-color: #ff4c68;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+#cta h3{
+    color: #fff;
+    padding-top: 5% ;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+/*footer*/
+#footer{
+    text-align: center;
+    padding-top: 3%;
+}
+#footer i{
+    padding: 0% 10px;
+}
+#footer p{
+    padding-top: 10px;
+    font-size: 15px;
+}
